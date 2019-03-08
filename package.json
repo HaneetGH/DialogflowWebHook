@@ -1,0 +1,32 @@
+{
+  "name": "dialoflowwebhook",
+  "description": "Firebase Webhook dependencies for a Dialogflow agent.",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Google Inc.",
+  "engines": {
+    "node": "6"
+  },
+  "scripts": {
+    "lint": "semistandard --fix \"**/*.js\"",
+    "start": "firebase deploy --only functions",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "actions-on-google": "2.2.0",
+    "axios": "^0.18.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dialogflow-fulfillment": "0.5.0",
+    "express": "~4.16.0",
+    "firebase": "^5.8.6",
+    "firebase-admin": "^5.13.1",
+    "firebase-functions": "^2.2.0",
+    "googleapis": "^27.0.0",
+    "http-errors": "~1.6.2",
+    "module": "^1.2.5",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
+  }
+}
