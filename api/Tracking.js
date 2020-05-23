@@ -1,9 +1,9 @@
 /************************API HIT*******************************************/
-const BASEURL = 'http://apis.letstrak.com/Ver1.1/API/';
-const API_END = 'GetDeviceVoiceAiDetails';
+const BASEURL = '';
+const API_END = '';
 const TENANT_TYPE_GOOGLE = 1;
 const gVariables = require('../variables/GlobalVariable');
-const YOUR_APPS_CLIENT_ID = '89309789151-0cor9to8mv938tvkhjeato07aqnqdv9s.apps.googleusercontent.com';
+const YOUR_APPS_CLIENT_ID = '';
 const axios = require('axios');
 
 exports.callTrackAPi = function (agent, car_type, email) {
