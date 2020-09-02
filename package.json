@@ -23,7 +23,7 @@
     "firebase": "^5.8.6",
     "firebase-admin": "^5.13.1",
     "firebase-functions": "^2.2.0",
-    "googleapis": "^27.0.0",
+    "googleapis": "^39.1.0",
     "http-errors": "~1.6.2",
     "module": "^1.2.5",
     "morgan": "~1.9.0",
